@@ -1,0 +1,183 @@
+/*
+Theme Name: Statuspage
+Description: Status page theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: statuspage
+*/
+
+body {
+  line-height: 140%;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: arial, helvetiva, sans-serif
+}
+
+@media only screen and (min-width: 55em) {
+  #content, #masthead .content, #colophon .content {
+    max-width: 55em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#masthead {
+  display: block;
+  padding: 1em;
+}
+
+#colophon {
+  display: block;
+  padding: 1em;
+}
+
+#content {
+  padding: 2em;
+  margin-top: -.5em;
+}
+
+article {
+  display: block;
+  margin: 1em 0 4em;
+}
+
+h1 {
+    margin: .5em 0 1em;
+    color: #447;
+    font-size: 1.5em;
+}
+
+h2 {
+    margin: 0 0 .5em;
+    color: #447;
+    font-size: 1.5em;
+}
+
+.linehead {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiBmaWxsPSIjY2NjIiAvPgo8L3N2Zz4K');
+    background-repeat: repeat-x;
+    background-size: .125em;    
+    background-position: 0 1.5em;
+    text-align: center;
+}
+
+.linehead h1 {
+    display: inline-block;
+    padding: 0 1em;
+    color: #ccc;
+}
+
+.no-reports {
+    padding: 0;
+    margin: 0;
+}
+
+.no-reports p {
+    display: inline-block;
+    font-weight: bold;
+    color: #080;
+    border-bottom: 2px solid #080;
+    font-size: 1.2em;
+    margin: 3em 0 3em;
+}
+
+.report .content {
+    display: inline-block;
+    padding: 0 0 1em;
+    margin: 0;
+}
+
+.timeline {
+    padding: 0;
+}
+
+.timeline li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiBmaWxsPSIjY2NjIiAvPgo8L3N2Zz4K');
+    background-repeat: repeat-y;
+    background-position: 3em 0;
+    background-size: .25em;
+}
+
+.timeline li:last-child {
+    background-repeat: no-repeat;
+}
+
+.timeline li:first-child {
+    background-repeat: repeat-y !important;
+}
+
+.timeline div.timestamp {
+    font-size: .8em;
+    display: inline-block;
+    background-color: #ccc;
+    font-weight: bold;
+    border-radius: 1.25em;
+    padding: 0;
+    margin: -.25em 0;
+    border: 1px solid #fff;
+    vertical-align: bottom;
+}
+
+.timeline div.timestamp .date {
+    display: inline-block;
+    padding: .5em 0 0 1em;
+    width: 9.5em;
+}
+
+.timeline div.timestamp .time {
+    display: inline-block;
+    width: 2.5em;
+    padding: .5em 1em;
+    border-left: .125em solid #fff;
+    text-align: right;
+}
+
+.timeline .timeline-started div.timestamp {
+    background-color: #f77;
+}
+
+.timeline .timeline-ended div.timestamp {
+    background-color: #7f7;
+}
+
+.timeline div.update {
+    display: block;
+    padding: 1em 0 2em 4em;
+    margin: 0;
+    vertical-align: top;
+}
+
+.comment-form label {
+    display: none;
+}
+
+.comment-form textarea {
+    font-size: 1.2em;
+    line-height: 150%;
+    padding: .5em;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.comment-form input[type=submit] {
+    font-size: 1em;
+    padding: .5em 1em;
+    background-color: #000;
+    color: #fff;
+    border-radius: .5em;
+    border: none;
+}
+
+textarea#comment {
+    font-size: 1.2em;
+    line-height: 150%;
+    padding: .5em;
+}

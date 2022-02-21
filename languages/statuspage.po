@@ -1,0 +1,103 @@
+# Copyright (C) 2022 
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Statuspage 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/statuspage\n"
+"Last-Translator: Sebastiaan Hoogeveen <sebastiaan@hoogeveen.me\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-01-09T15:38:11+01:00\n"
+"PO-Revision-Date: 2022-01-10 10:00+01:00\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: statuspage\n"
+
+#. Theme Name of the theme
+#: functions.php:63
+msgid "Statuspage"
+msgstr "Statuspagina"
+
+#. Description of the theme
+msgid "Status page theme"
+msgstr "Statuspagina-theme"
+
+#: comments.php:33
+#: post.php:90
+msgid "Post update"
+msgstr "Voeg update toe"
+
+#: comments.php:35
+#: post.php:92
+msgid "Add an update"
+msgstr "Update toevoegen"
+
+#: functions.php:23
+msgid "Report"
+msgstr "Servicerbericht"
+
+#: functions.php:29
+msgid "Beginning"
+msgstr "Start"
+
+#: functions.php:34
+msgid "End"
+msgstr "Einde"
+
+#: functions.php:67
+msgid "Colors"
+msgstr "Kleuren"
+
+#: functions.php:77
+msgid "Logo"
+msgstr "Logo"
+
+#: functions.php:88
+msgid "Introduction"
+msgstr "Introductie"
+
+#: functions.php:99
+#: functions.php:143
+msgid "Footer"
+msgstr "Voettekst"
+
+#: functions.php:110
+msgid "Background"
+msgstr "Achtergrond"
+
+#: functions.php:121
+msgid "Masthead"
+msgstr "Bovenkant"
+
+#: functions.php:132
+msgid "Masthead background"
+msgstr "Bovenkant achtergrond"
+
+#: functions.php:154
+msgid "Footer background"
+msgstr "Voettekst achtergrond"
+
+#: functions.php:194
+msgid "Solved: %s"
+msgstr "Verholpen: %s"
+
+#: functions.php:199
+#: functions.php:215
+msgid "Completed: %s"
+msgstr "Afgerond: %s"
+
+#: functions.php:207
+msgid "Announcement: %s (on %s from %s)"
+msgstr "Aankondiging: %s (op %s vanaf %s)"
+
+#: home.php:54
+msgid "Berichten van de laatste %d dagen"
+msgstr ""
+
+#: post.php:43
+msgid "Aangekondigd"
+msgstr ""
+
+#: post.php:53
+msgid "Gemeld"
+msgstr ""
